@@ -1,0 +1,269 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sofia+Sans+Extra+Condensed:ital,wght@1,700&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.cabecalho {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: crimson;
+    color: white;
+    padding: -25px;
+}
+
+.titulo {
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    margin: 10px;
+    position: relative;
+    top: 20px;
+    left: 20px;
+}
+
+.imgtitulo {
+    position: relative;
+    left: 180px;
+    top: -40px;
+    height: 30px;
+    width: 30px;
+    
+}
+
+.botoescima {
+    display: flex;
+    gap: 50px;
+    padding-right: 30px;
+}
+
+.botaocima {
+    text-decoration: none;
+    background-color: transparent;
+    border: transparent;
+    color: white;
+    font-size: 22px;
+    font-family: 'Rubik', sans-serif;
+    cursor: pointer;
+}
+
+.botaocima:hover {
+    transition: 0.5s;
+    color: orangered;
+}
+
+.container {
+    background-image: linear-gradient(
+        to right,
+        rgb(255, 146, 146),
+        rgb(226, 36, 30),
+        rgb(247, 12, 12)
+    );
+    border-top: 2px solid rgb(255, 255, 255);
+    border-bottom: 2px solid rgb(255, 255, 255);
+    padding-bottom: 80px;
+}
+
+.maincontent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+    background-image: linear-gradient(
+        to right,
+        rgb(255, 146, 146),
+        rgb(226, 36, 30),
+        rgb(247, 12, 12)
+    );
+    padding-bottom: 80px;
+}
+
+.titulopag {
+    display: flex;
+  flex-direction: column;
+  gap: 50px;
+  align-items: center;
+  padding-left: 50px;
+  justify-content: center;
+}
+
+.tituloprincipal {
+    font-family: 'Arimo', sans-serif;
+    color: black;
+    font-size: 70px;
+}
+
+.tituloprincipal2 {
+    font-family: 'Roboto Condensed', sans-serif;
+    color: black;
+    font-weight: 100;
+    font-size: 30px;
+}
+
+.imagemprincipal {
+    height: 680px;
+    padding-right: 80px;
+    padding-top: 50px;
+    border-radius: 100px;
+}
+
+.imagemprincipal:hover {
+    transition: 0.5s;
+    height: 720px;
+}
+
+.tituloparte2 {
+    color: rgb(255, 238, 0);
+    text-align: center;
+    font-family: 'Sofia Sans Extra Condensed', sans-serif;
+    font-size: 50px;
+    margin-bottom: 90px;
+    margin-top: 120px;
+    border-top: 5px solid white;
+    border-bottom: 5px solid white;
+    padding: 50px;
+}
+
+.imgjogadores {
+    display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.butlerimg {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    color: transparent;
+    font-family: "Roboto", sans-serif;
+    font-size: 24px;
+    font-weight: 100px;
+}
+
+.butlerimg:hover {
+    transition: 0.5s;
+    color: white;
+}
+
+.butler {
+    height: 250px;
+    width: 250px;
+    border-radius: 120px;
+    cursor: pointer;
+}
+
+.butler:hover{
+    transition: 0.5s;
+  height: 300px;
+  width: 300px;
+}
+
+.adebayoimg {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    color: transparent;
+    font-family: "Roboto", sans-serif;
+    font-size: 24px;
+    font-weight: 100px;
+}
+
+.adebayoimg:hover {
+    transition: 0.5s;
+    color: white;
+}
+
+.adebayo {
+    height: 250px;
+    width: 250px;
+    border-radius: 120px;
+    cursor: pointer;
+}
+
+.adebayo:hover{
+    transition: 0.5s;
+  height: 300px;
+  width: 300px;
+}
+
+.herroimg {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    color: transparent;
+    font-family: "Roboto", sans-serif;
+    font-size: 24px;
+    font-weight: 100px;
+}
+
+.herroimg:hover {
+    transition: 0.5s;
+    color: white;
+}
+
+.herro {
+    height: 250px;
+    width: 250px;
+    border-radius: 120px;
+    cursor: pointer;
+}
+
+.herro:hover{
+    transition: 0.5s;
+  height: 300px;
+  width: 300px;
+}
+
+.lowryimg {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    color: transparent;
+    font-family: "Roboto", sans-serif;
+    font-size: 24px;
+    font-weight: 100px;
+}
+
+.lowryimg:hover {
+    transition: 0.5s;
+    color: white;
+}
+
+.lowry {
+    height: 250px;
+    width: 250px;
+    border-radius: 120px;
+    cursor: pointer;
+}
+
+.lowry:hover{
+    transition: 0.5s;
+  height: 300px;
+  width: 300px;
+}
+
+.rodape {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #e21b1b;
+    color: white;
+    padding: 25px;
+  }
+  .logorodape {
+    height: 100px;
+  }
